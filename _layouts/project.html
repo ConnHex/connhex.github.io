@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+    <article id="main">
+  <header class="special container">
+    <h2 class="post-title">{{ page.title }}</h2>
+  </header>
+
+  <section class="style1 wrapper container">
+    {{ content }}
+    <center><ul class="icons">
+    {% if page.facebook-link != nul %}
+    	<li><a href="http://www.facebook.com/{{ page.facebook-link }}" target=_blank ><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i> Facebook page</a></li>
+    {% endif %}
+    </ul></center>
+  </section>
+  
+</article>
+

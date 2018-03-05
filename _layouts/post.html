@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <header>
+      <h2 class="post-title">{{ page.title }}</h2>
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
+    <div id="content">
+      {{ content }}
+    </div>
+    {% if page.tags != '' %}
+    <div id="tags">
+      <p>Tags:</p>
+      <ul class="list-inline">
+        {% for tag in page.tags %}
+        <li>{% include tag.html text=tag %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12 post-footer">
+    {% if page.previous %}
+    <button class="btn btn-primary btn-lg btn-bc pull-left" onclick="window.location.href='{{ page.previous.url }}'">
+      &larr; Previous post
+    </button> 
+    {% endif %}
+    {% if page.next %}
+    <button class="btn btn-primary btn-lg btn-bc pull-right" onclick="window.location.href='{{ page.next.url }}'">
+      Next post &rarr;
+    </button>
+    {% endif %}
+  </div>
+</div>
