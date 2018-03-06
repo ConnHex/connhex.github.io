@@ -70,14 +70,18 @@ layout: default
           {% for user in site.team %}
           <div class="col-sm-6 col-md-3">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              {% if user.picture %}
+              <img class="mx-auto rounded-circle" src="{{user.picture}}" alt="">
+              {% else %}
+              <img class="mx-auto rounded-circle" src="/images/profile-placeholder.gif" alt="">
+              {% endif %}
               <h4>{{user.name}}</h4>
               <p class="text-muted">{{user.role}}</p>
               <ul class="list-inline social-buttons">
                 <!-- Website -->
                 {%if user.website %}
                 <li class="list-inline-item">
-                  <a href="{{user.website}}">
+                  <a href="{{user.website}}" target="_blank">
                     <i class="fa fa-globe"></i>
                   </a>
                 </li>
@@ -85,7 +89,7 @@ layout: default
                 <!-- LinkedIn -->
                 {%if user.linkedin %}
                 <li class="list-inline-item">
-                  <a href="{{user.linkedin}}">
+                  <a href="{{user.linkedin}}" target="_blank">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -93,7 +97,7 @@ layout: default
                 <!-- Facebook -->
                 {%if user.facebook %}
                 <li class="list-inline-item">
-                  <a href="{{user.facebook}}">
+                  <a href="{{user.facebook}}" target="_blank">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
@@ -101,7 +105,7 @@ layout: default
                 <!-- Twitter -->
                 {%if user.twitter %}
                 <li class="list-inline-item">
-                  <a href="{{user.twitter}}">
+                  <a href="{{user.twitter}}" target="_blank">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
@@ -109,7 +113,7 @@ layout: default
                 <!-- Github -->
                 {%if user.github %}
                 <li class="list-inline-item">
-                  <a href="{{user.github}}">
+                  <a href="{{user.github}}" target="_blank">
                     <i class="fa fa-github"></i>
                   </a>
                 </li>
@@ -117,7 +121,7 @@ layout: default
                 <!-- BitBucket -->
                 {%if user.bitbucket %}
                 <li class="list-inline-item">
-                  <a href="{{user.bitbucket}}">
+                  <a href="{{user.bitbucket}}" target="_blank">
                     <i class="fa fa-bitbucket"></i>
                   </a>
                 </li>
