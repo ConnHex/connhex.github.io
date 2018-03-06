@@ -39,18 +39,20 @@ collections:
 
 team:
   - name: Andrea Crivello
-    position: 2D/3D Artist
+    role: 2D/3D Artist
     picture: /images/profile-placeholder.gif
   - name: Lorenzo Valente
-    position: Developer
+    role: Developer
     website: https://about.me/lorenzovalente
   - name: Dario Facchini
-    position: Developer
+    role: Developer
   - name: Andrea Peretti
-    position: Developer
+    role: Developer
     website: http://www.andxet.com
-    github: http://github.com/andxet
-    bitbucket: http://bitbucket.com/andxet
+    github: https://github.com/andxet
+    bitbucket: https://bitbucket.com/andxet
+    twitter: https://twitter.com/andxet
+    linkedin: https://www.linkedin.com/in/andreaperetti/
 
 
 paginate: 5
