@@ -40,21 +40,21 @@ collections:
 team:
   - name: Andrea Crivello
     role: 2D/3D Artist
-    picture: /img/crivello.png
+    picture: /img/team/crivello.png
     website: http://www.andreacrivello.com
     twitter: https://twitter.com/CrivelloAndrea
     Linkedin: https://www.linkedin.com/in/andrea-crivello-33446874/
     Instagram: https://www.instagram.com/crivelloandrea_3d/
   - name: Lorenzo Valente
     role: Developer
-    picture: /img/valente.png
+    picture: /img/team/valente.png
     website: https://about.me/lorenzovalente
   - name: Dario Facchini
     role: Developer
-    picture: /img/facchini.png
+    picture: /img/team/facchini.png
   - name: Andrea Peretti
-    picture: /img/peretti.png
     role: Developer
+    picture: /img/team/peretti.png
     website: http://www.andxet.com
     github: https://github.com/andxet
     bitbucket: https://bitbucket.com/andxet
