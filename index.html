@@ -112,6 +112,14 @@ layout: default
                   </a>
                 </li>
                 {% endif %}
+                <!-- Instagram -->
+                {%if user.instagram %}
+                <li class="list-inline-item">
+                  <a href="{{user.instagram}}" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                {% endif %}
                 <!-- Github -->
                 {%if user.github %}
                 <li class="list-inline-item">
