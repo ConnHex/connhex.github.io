@@ -43,8 +43,8 @@ team:
     picture: /img/team/crivello.png
     website: http://www.andreacrivello.com
     twitter: https://twitter.com/CrivelloAndrea
-    Linkedin: https://www.linkedin.com/in/andrea-crivello-33446874/
-    Instagram: https://www.instagram.com/crivelloandrea_3d/
+    linkedin: https://www.linkedin.com/in/andrea-crivello-33446874/
+    instagram: https://www.instagram.com/crivelloandrea_3d/
   - name: Lorenzo Valente
     role: Developer
     picture: /img/team/valente.png
