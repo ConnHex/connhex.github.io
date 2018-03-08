@@ -8,8 +8,10 @@
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           {% for social in site.socials %}
-          <!-- {{ site.socials }} -->
-          <!-- {{ site.socials.twitter }} -->
+          <!-- {{ social }} -->
+          <!-- {{ social["twitter"] }} -->
+          <!-- {{ social[0] }} -->
+          <!-- {{ social[0] }} -->
           <li class="list-inline-item">
             <a href="{{ social[1] }}"><i class="fa fa-{{ social[0] }}"></i></a>
           </li>
