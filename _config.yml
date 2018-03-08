@@ -41,27 +41,32 @@ team:
   - name: Andrea Crivello
     role: 2D/3D Artist
     picture: /img/team/crivello.png
-    website: http://www.andreacrivello.com
-    twitter: https://twitter.com/CrivelloAndrea
-    linkedin: https://www.linkedin.com/in/andrea-crivello-33446874/
-    instagram: https://www.instagram.com/crivelloandrea_3d/
+    socials:
+      website: http://www.andreacrivello.com
+      twitter: https://twitter.com/CrivelloAndrea
+      linkedin: https://www.linkedin.com/in/andrea-crivello-33446874/
+      instagram: https://www.instagram.com/crivelloandrea_3d/
   - name: Lorenzo Valente
     role: Developer
     picture: /img/team/valente.png
-    website: https://about.me/lorenzovalente
-    twitter: https://twitter.com/Oneiros90
-    linkedin: https://www.linkedin.com/in/valentelorenzo/
+    socials:
+      website: https://about.me/lorenzovalente
+      twitter: https://twitter.com/Oneiros90
+      linkedin: https://www.linkedin.com/in/valentelorenzo/
   - name: Dario Facchini
     role: Developer
     picture: /img/team/facchini.png
+    socials:
+      linkedin: https://www.linkedin.com/in/dariofacchini/
   - name: Andrea Peretti
     role: Developer
     picture: /img/team/peretti.png
-    website: http://www.andxet.com
-    github: https://github.com/andxet
-    bitbucket: https://bitbucket.com/andxet
-#    twitter: https://twitter.com/andxet
-    linkedin: https://www.linkedin.com/in/andreaperetti/
+    socials:
+      website: http://www.andxet.com
+      github: https://github.com/andxet
+      bitbucket: https://bitbucket.com/andxet
+      # twitter: https://twitter.com/andxet
+      linkedin: https://www.linkedin.com/in/andreaperetti/
 
 socials:
   twitter: https://twitter.com/ConnHex
