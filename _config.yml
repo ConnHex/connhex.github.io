@@ -58,6 +58,7 @@ team:
     picture: /img/team/facchini.png
     socials:
       linkedin: https://www.linkedin.com/in/dariofacchini/
+      github: https://github.com/fakkoweb
   - name: Andrea Peretti
     role: Developer
     picture: /img/team/peretti.png
