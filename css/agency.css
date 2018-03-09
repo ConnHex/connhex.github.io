@@ -100,7 +100,7 @@ img::-moz-selection {
 
 #mainNav {
   background-color: #212529;
-  text-shadow:
+  /*text-shadow:
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
@@ -110,7 +110,7 @@ img::-moz-selection {
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;*/
 }
 
 #mainNav .navbar-toggler {
