@@ -583,6 +583,27 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.paragraph {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.paragraph img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+.paragraph h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.paragraph p {
+  margin-top: 0;
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
