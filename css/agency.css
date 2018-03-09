@@ -180,6 +180,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/bg_home.png");
+  background-color: #303030;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
