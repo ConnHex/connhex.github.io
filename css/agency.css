@@ -56,7 +56,7 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Advent Pro, 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -66,13 +66,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #36FF00;
-  border-color: #36FF00;
+  background-color: #FE0556;
+  border-color: #FE0556;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #FE0556 !important;
-  border-color: #FE0556 !important;
+  background-color: #36FF00 !important;
+  border-color: #36FF00 !important;
   color: white;
 }
 
