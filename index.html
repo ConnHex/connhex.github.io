@@ -8,7 +8,7 @@ layout: default
     <div class="intro-text">
       <!--<div class="intro-lead-in">Welcome To Our Studio!</div>-->
       <div class="intro-heading /*text-uppercase*/">ConnHex</div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.play-now-address }}" target="_blank">PLAY NOW<br><small>on Air Console</small></a>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.play-now-address }}" target="_blank">PLAY NOW<br><small>(Beta Version)</small></a>
     </div>
   </div>
 </header>
@@ -20,12 +20,13 @@ layout: default
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">The Game</h2>
-        <h3 class="section-subheading text-muted">Destroy the enemy core to win!</h3>
+        <h3 class="section-subheading text-muted" style="margin-bottom:20px">Destroy the enemy core to win!</h3>
+        <h3 class="section-subheading text-muted">Use your smartphone to control your spaceship, go to <a href="https://www.airconsole.com/">www.airconsole.com</a> or download the app (for <a href="https://play.google.com/store/apps/details?id=com.airconsole.controller">Android</a> and <a href="https://itunes.apple.com/us/app/airconsole/id1017688554">IOS</a>). Click on "play now!" to start the game and insert the code shown on your pc</h3>
       </div>
     </div>
     <div class="row text-center">
       {% for instruction in site.instructions %}
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <div class="paragraph">
           <img class="mx-auto rounded-circle" src="{{instruction.image}}" />
           <h4 class="service-heading">{{instruction.title}}</h4>
