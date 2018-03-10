@@ -75,9 +75,9 @@ socials:
   facebook: https://www.facebook.com/ConnHex/
 
 instructions:
-  - image: /img/instructions/instruction_001.png
-    title: Use your smartphone as gamepad!
-    description: Click on "Play Now!" to to start the game! From your smartphone go to www.airconsole.com and insert the code shown in your PC.
+# - image: /img/instructions/instruction_001.png
+#   title: Use your smartphone as gamepad!
+#   description: Click on "Play Now!" to to start the game! From your smartphone go to www.airconsole.com and insert the code shown in your PC.
   - image: /img/instructions/instruction_002.png
     title: Move around
     description: Your spaceship will automatically move, use the buttons on your touchscreen to turn. Press both them to shoot and stop.
