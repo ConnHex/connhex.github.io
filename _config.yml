@@ -81,13 +81,13 @@ instructions:
   - image: /img/team/profile-placeholder.gif
     title: Move around
     description: Your spaceship will automatically move, use the buttons on your touchscreen to turn. Press both them to shoot and stop.
-  - image: /img/team/profile-placeholder.gif
+  - image: /img/instructions/instruction_003.png
     title: Conquer your field!
     description: Go over a cell to conquer it!<br/>You can conquer a cell only if it is linked with your nucleus
-  - image: /img/team/profile-placeholder.gif
+  - image: /img/instructions/instruction_004.png
     title: Destroy the enemy's nucleus!
     description: Create a link with the enemy's nucleus to make it vulnerable! The vulnerable cores are damaged constatly when time passes. Shoot it to reduce its energy faster!
-  - image: /img/team/profile-placeholder.gif
+  - image: /img/instructions/instruction_005.png
     title: Defend your nucleus!
     description: Conquer cells to cut the opponent's path, press both the buttons shoot them and kill them.
 
