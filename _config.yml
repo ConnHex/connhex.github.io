@@ -63,7 +63,7 @@ team:
     role: Developer
     picture: /img/team/peretti.png
     socials:
-      website: http://www.andxet.com
+      website: https://www.andxet.dev
       github: https://github.com/andxet
       bitbucket: https://bitbucket.com/andxet
       # twitter: https://twitter.com/andxet
